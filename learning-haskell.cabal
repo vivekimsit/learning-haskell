@@ -1,0 +1,25 @@
+name:           learning-haskell
+version:        0.0.0
+license:        MIT
+copyright:      (c) Vivek Poddar
+author:         Vivek Poddar <vivekimsit@gmail.com>
+build-type:     Simple
+cabal-version:  >= 1.16
+
+library
+  hs-source-dirs: src
+
+  exposed-modules: Algorithm.Sorting.Quicksort
+
+  build-depends: base == 4.*
+
+test-suite spec
+  type: exitcode-stdio-1.0
+
+  hs-source-dirs: test
+
+  main-is: Spec.hs
+
+  build-depends: base == 4.*
+                 , hspec >= 2.1.2
+                 , learning-haskell

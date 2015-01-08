@@ -1,0 +1,11 @@
+Test suite spec: RUNNING...
+
+Algorithm.Sorting.Quicksort
+  quicksort
+    returns [] for []
+    returns [1, 2, 3] for [3, 2, 1]
+
+Finished in 0.0001 seconds
+2 examples, 0 failures
+Test suite spec: PASS
+Test suite logged to: dist/test/learning-haskell-0.0.0-spec.log
