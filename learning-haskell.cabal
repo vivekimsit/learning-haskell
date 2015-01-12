@@ -9,7 +9,9 @@ cabal-version:  >= 1.16
 library
   hs-source-dirs: src
 
-  exposed-modules: Algorithm.Sorting.Quicksort
+  exposed-modules:
+    Algorithm.Sorting.Quicksort,
+    Algorithm.Sorting.Selectionsort
 
   build-depends: base == 4.*
 
