@@ -10,6 +10,7 @@ library
   hs-source-dirs: src
 
   exposed-modules:
+    Algorithm.Sorting.Insertionsort,
     Algorithm.Sorting.Quicksort,
     Algorithm.Sorting.Selectionsort
 
